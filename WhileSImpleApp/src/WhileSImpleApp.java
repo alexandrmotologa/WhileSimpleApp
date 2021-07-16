@@ -14,7 +14,7 @@ public class WhileSImpleApp {
 		
 		int attempt = 1;
 		
-		while (attempt >= 1 && attempt <= 3) {
+		while (attempt >= 1 && attempt <= MAX_ATTEMPTS) {
 			
 			System.out.println("Enter pin: ");
 			
