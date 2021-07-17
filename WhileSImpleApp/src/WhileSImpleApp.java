@@ -26,7 +26,7 @@ public class WhileSImpleApp {
 				in.close();
 				break;
 				
-			} else if (attempt != MAX_ATTEMPTS && pinInput != PIN_SECRET){
+			} else if (attempt != MAX_ATTEMPTS){
 				
 				int tempDisplayAttempts = MAX_ATTEMPTS - attempt;
 				attempt++;
